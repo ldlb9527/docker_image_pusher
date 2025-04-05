@@ -27,11 +27,15 @@
 # gcr.io/pixie-oss/pixie-prod/operator/bundle_index:0.0.1
 # docker.io/istio/proxyv2:1.17.3
 # docker.io/istio/pilot:1.17.3
-docker.io/istio/examples-bookinfo-details-v1:1.17.0
-docker.io/istio/examples-bookinfo-ratings-v1:1.17.0
-docker.io/istio/examples-bookinfo-reviews-v1:1.17.0
-docker.io/istio/examples-bookinfo-reviews-v2:1.17.0
-docker.io/istio/examples-bookinfo-reviews-v3:1.17.0
-docker.io/istio/examples-bookinfo-productpage-v1:1.17.0
+#docker.io/istio/examples-bookinfo-details-v1:1.17.0
+#docker.io/istio/examples-bookinfo-ratings-v1:1.17.0
+#docker.io/istio/examples-bookinfo-reviews-v1:1.17.0
+#docker.io/istio/examples-bookinfo-reviews-v2:1.17.0
+#docker.io/istio/examples-bookinfo-reviews-v3:1.17.0
+#docker.io/istio/examples-bookinfo-productpage-v1:1.17.0
+ghcr.io/immich-app/immich-server:release
+ghcr.io/immich-app/immich-machine-learning:release
+docker.io/redis:6.2-alpine@sha256:148bb5411c184abd288d9aaed139c98123eeb8824c5d3fce03cf721db58066d8
+docker.io/tensorchord/pgvecto-rs:pg14-v0.2.0@sha256:739cdd626151ff1f796dc95a6591b55a714f341c737e27f045019ceabf8e8c52
 #支持指定架构
 #--platform=linux/amd64
